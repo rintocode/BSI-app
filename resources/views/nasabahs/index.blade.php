@@ -8,19 +8,17 @@
             <a href="{{ route('nasabahs.create') }}" class="bg-blue-500 text-black px-4 py-2 rounded-md">ADD</a>
         </div>
 
-        <div class="content">
-            <div class="card">
-                <div class="card-tools">
-                <form action="/nasabahs/search" class="form-inline" method="GET">
-                    <input type="search" name="search" class="form-control float-right" placeholder="Search">
-                    <div class ="input-group-append">
-                        <button type ="submit" class="btn btn-default">
-                            <i class ="fas fa-search"></i>
-                        </button>
-                    </div>
+        <div class="mt-1 mb-4">
+            <div class="relative max-w-xs">
+                <form action="{{ route('nasabahs.index') }}" method="GET">
+                    <label for="search" class="sr-only">
+                        Search
+                    </label>
+                    <input type="text" name="s"
+                           class="block w-full p-3 pl-10 text-sm border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+                           placeholder="Search..." />
                 </form>
             </div>
-        </div>
         </div>
 
 

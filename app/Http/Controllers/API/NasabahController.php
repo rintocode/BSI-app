@@ -6,14 +6,14 @@ use App\Http\Controllers\API\BaseController as BaseController;
 use App\Http\Resources\Nasabah as NasabahResource;
 use App\Models\Nasabah;
 use Illuminate\Http\Request;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 
 class NasabahController extends BaseController
 {
     public function index()
     {
-        $nasabahs = Nasabah::all();
-        return $this->sendResponse(NasabahResource::collection($nasabahs), 'Posts fetched.');
+        $nasabah = Nasabah::all();
+        return $this->sendResponse(NasabahResource::collection($nasabah), 'Posts fetched.');
     }
 
     public function store(Request $request)

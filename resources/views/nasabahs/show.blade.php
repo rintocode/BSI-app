@@ -15,7 +15,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->produk }}
+                            {{ $nasabah->produk }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -24,7 +24,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->tujuan }}
+                            {{ $nasabah->tujuan }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -33,7 +33,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->identitas }}
+                            {{ $nasabah->identitas }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -42,7 +42,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->nomor_identitas }}
+                            {{ $nasabah->nomor_identitas }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -51,7 +51,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->nama_nasabah }}
+                            {{ $nasabah->nama_nasabah }}
                         </p>
                     </div>
 
@@ -61,7 +61,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->nama_ibu }}
+                            {{ $nasabah->nama_ibu }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -70,7 +70,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->tempat_lahir }}
+                            {{ $nasabah->tempat_lahir }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -79,7 +79,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->tanggal_lahir }}
+                            {{ $nasabah->tanggal_lahir }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -88,7 +88,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->jenis_kelamin }}
+                            {{ $nasabah->jenis_kelamin }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -97,7 +97,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->alamat_nasabah }}
+                            {{ $nasabah->alamat_nasabah }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -106,7 +106,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->status_pekerjaan }}
+                            {{ $nasabah->status_pekerjaan }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -115,7 +115,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->mulai_bekerja }}
+                            {{ $nasabah->mulai_bekerja }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -124,7 +124,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->status_pernikahan }}
+                            {{ $nasabah->status_pernikahan }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -133,7 +133,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->pendidikan }}
+                            {{ $nasabah->pendidikan }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -142,7 +142,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->agama }}
+                            {{ $nasabah->agama }}
                         </p>
                     </div>
 
@@ -154,7 +154,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->created_at }}
+                            {{ $nasabah->created_at }}
                         </p>
                     </div>
                     <div class="mb-6">
@@ -163,7 +163,7 @@
                         </h2>
 
                         <p class="mt-1 text-sm text-gray-600">
-                            {{ $nasabahs->updated_at }}
+                            {{ $nasabah->updated_at }}
                         </p>
                     </div>
                     <a href="{{ route('nasabahs.index') }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">BACK</a>

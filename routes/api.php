@@ -21,5 +21,5 @@ Route::post('login', [AuthController::class, 'signin']);
 Route::post('register', [AuthController::class, 'signup']);
 
 Route::middleware('auth:sanctum')->group( function () {
-    Route::resource('nasabahs', NasabahController::class);
+    Route::resource('nasabah', NasabahController::class);
 });

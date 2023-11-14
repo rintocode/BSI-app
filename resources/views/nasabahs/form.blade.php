@@ -66,15 +66,15 @@
                         <div>
                             <x-input-label for="nama_ibu" value="nama_ibu" />
                             {{-- use textarea-input component that we will create after this --}}
-                            <x-textarea-input id="nama_ibu" name="nama_ibu" class="mt-1 block w-full" required autofocus>{{ $nasabah->nama_nasabah ?? old('nama_nasabah') }}</x-textarea-input>
-                            <x-input-error class="mt-2" :messages="$errors->get('nama_nasabah')" />
+                            <x-textarea-input id="nama_ibu" name="nama_ibu" class="mt-1 block w-full" required autofocus>{{ $nasabah->nama_ibu ?? old('nama_ibu') }}</x-textarea-input>
+                            <x-input-error class="mt-2" :messages="$errors->get('nama_ibu')" />
                         </div>
 
 
                         <div>
                             <x-input-label for="tempat_lahir" value="tempat_lahir" />
                             {{-- use textarea-input component that we will create after this --}}
-                            <x-textarea-input id="tempat_lahir" name="tempat_lahir" class="mt-1 block w-full" required autofocus>{{ $nasabah->nama_nasabah ?? old('tempat_lahir') }}</x-textarea-input>
+                            <x-textarea-input id="tempat_lahir" name="tempat_lahir" class="mt-1 block w-full" required autofocus>{{ $nasabah->tempat_lahir ?? old('tempat_lahir') }}</x-textarea-input>
                             <x-input-error class="mt-2" :messages="$errors->get('tempat_lahir')" />
                         </div>
 
